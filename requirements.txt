@@ -1,0 +1,10 @@
+kafka-python
+requests
+numpy
+pandas
+pyomo
+h3
+matplotlib
+folium
+confluent-kafka
+loguru

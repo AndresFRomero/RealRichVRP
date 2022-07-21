@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d2296f50937df0b570553c99e4e59f57 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d2296f50937df0b570553c99e4e59f57" ></div>
+        
+</body>
+<script>    
+    
+            var map_d2296f50937df0b570553c99e4e59f57 = L.map(
+                "map_d2296f50937df0b570553c99e4e59f57",
+                {
+                    center: [19.565266061921196, -99.20146685027794],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c6b6ab0aa48c1127d61816fb3bd4bd8 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_59163903065539d5b2aeb6e3e4e17e9a = L.marker(
+                [19.565266061921196, -99.20146685027794],
+                {"color": "black"}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+        var popup_871ae18035cb221d78fe89fc9951d0ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a92cc54ab42a1b5a6402b1d1725b7135 = $(`<div id="html_a92cc54ab42a1b5a6402b1d1725b7135" style="width: 100.0%; height: 100.0%;">Warehouse</div>`)[0];
+            popup_871ae18035cb221d78fe89fc9951d0ce.setContent(html_a92cc54ab42a1b5a6402b1d1725b7135);
+        
+
+        marker_59163903065539d5b2aeb6e3e4e17e9a.bindPopup(popup_871ae18035cb221d78fe89fc9951d0ce)
+        ;
+
+        
+    
+    
+            var marker_fe016b5834df20ad2c9c2b16f28c84cb = L.marker(
+                [19.652412606536387, -99.20827874989929],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_26b62a2f8f0559aba6d7face1939e9a8 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_fe016b5834df20ad2c9c2b16f28c84cb.setIcon(div_icon_26b62a2f8f0559aba6d7face1939e9a8);
+        
+    
+        var popup_9d4f7af7cb59bdd4f6a8b467d523ba73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ecde23b556663726473a5ff9bdd3cb1 = $(`<div id="html_9ecde23b556663726473a5ff9bdd3cb1" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_9d4f7af7cb59bdd4f6a8b467d523ba73.setContent(html_9ecde23b556663726473a5ff9bdd3cb1);
+        
+
+        marker_fe016b5834df20ad2c9c2b16f28c84cb.bindPopup(popup_9d4f7af7cb59bdd4f6a8b467d523ba73)
+        ;
+
+        
+    
+    
+            var marker_e0d8c4e4569f7f96edab34f6f2200e0a = L.marker(
+                [19.645394108277625, -99.25718446220155],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_05c6290755bcdd8ca3e0d8f1cb16b45c = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_e0d8c4e4569f7f96edab34f6f2200e0a.setIcon(div_icon_05c6290755bcdd8ca3e0d8f1cb16b45c);
+        
+    
+        var popup_1acdd09474cbb6608fcebc231462d70c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96f3c80b0dbe39e4a29147753e80acd3 = $(`<div id="html_96f3c80b0dbe39e4a29147753e80acd3" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 3000 </li>                             <li> Franja: 900,1020 </li>                         </ul>                     </div>`)[0];
+            popup_1acdd09474cbb6608fcebc231462d70c.setContent(html_96f3c80b0dbe39e4a29147753e80acd3);
+        
+
+        marker_e0d8c4e4569f7f96edab34f6f2200e0a.bindPopup(popup_1acdd09474cbb6608fcebc231462d70c)
+        ;
+
+        
+    
+    
+            var marker_cc3efeb360156477e395711c8ff5c0c7 = L.marker(
+                [19.595733108522587, -99.2827609056407],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_399b6d93c1479c28c65b3ddd2283fae1 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_cc3efeb360156477e395711c8ff5c0c7.setIcon(div_icon_399b6d93c1479c28c65b3ddd2283fae1);
+        
+    
+        var popup_0ba59ae745662b458e064011d51f45fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f69bc431cf98bcadbcfa1d2f8c3cfb87 = $(`<div id="html_f69bc431cf98bcadbcfa1d2f8c3cfb87" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_0ba59ae745662b458e064011d51f45fa.setContent(html_f69bc431cf98bcadbcfa1d2f8c3cfb87);
+        
+
+        marker_cc3efeb360156477e395711c8ff5c0c7.bindPopup(popup_0ba59ae745662b458e064011d51f45fa)
+        ;
+
+        
+    
+    
+            var marker_64cb987d6eac684fe349dd396a3f36e1 = L.marker(
+                [19.60018022816934, -99.29728704803608],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_92ca1b0b9ec4133f823e015323aeedc0 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_64cb987d6eac684fe349dd396a3f36e1.setIcon(div_icon_92ca1b0b9ec4133f823e015323aeedc0);
+        
+    
+        var popup_ae2c89a5ab4ab931d1de51090e4f386d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3995a46bc3ed3c42c5be8b923d9e6830 = $(`<div id="html_3995a46bc3ed3c42c5be8b923d9e6830" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_ae2c89a5ab4ab931d1de51090e4f386d.setContent(html_3995a46bc3ed3c42c5be8b923d9e6830);
+        
+
+        marker_64cb987d6eac684fe349dd396a3f36e1.bindPopup(popup_ae2c89a5ab4ab931d1de51090e4f386d)
+        ;
+
+        
+    
+    
+            var marker_f3f7dcf0b540f40276279fdc1c2805fd = L.marker(
+                [19.5950489018173, -99.30639573335375],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_c5e7a8fa2b06b1c9903a082661a80831 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_f3f7dcf0b540f40276279fdc1c2805fd.setIcon(div_icon_c5e7a8fa2b06b1c9903a082661a80831);
+        
+    
+        var popup_d876eaadc83edcbb918814f2f1ee7748 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc52c1956a7a5260979467cce621a54 = $(`<div id="html_4fc52c1956a7a5260979467cce621a54" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 50 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d876eaadc83edcbb918814f2f1ee7748.setContent(html_4fc52c1956a7a5260979467cce621a54);
+        
+
+        marker_f3f7dcf0b540f40276279fdc1c2805fd.bindPopup(popup_d876eaadc83edcbb918814f2f1ee7748)
+        ;
+
+        
+    
+    
+            var marker_0e8cad1f101723b08d3ffc077658924f = L.marker(
+                [19.60483109692729, -99.3091226676285],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_28a39b7c852a228eedfdc8cde16f814e = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #cc9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_0e8cad1f101723b08d3ffc077658924f.setIcon(div_icon_28a39b7c852a228eedfdc8cde16f814e);
+        
+    
+        var popup_9bbf1952e4a0b80812a59a2716b74c31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c48cceeb228cdd7dcc0be2090a9ac3 = $(`<div id="html_14c48cceeb228cdd7dcc0be2090a9ac3" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 1 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_9bbf1952e4a0b80812a59a2716b74c31.setContent(html_14c48cceeb228cdd7dcc0be2090a9ac3);
+        
+
+        marker_0e8cad1f101723b08d3ffc077658924f.bindPopup(popup_9bbf1952e4a0b80812a59a2716b74c31)
+        ;
+
+        
+    
+    
+            var poly_line_8b047d7ea171c3b9133556f9920d84fb = L.polyline(
+                [[19.652412606536387, -99.20827874989929], [19.645394108277625, -99.25718446220155], [19.595733108522587, -99.2827609056407], [19.60018022816934, -99.29728704803608], [19.5950489018173, -99.30639573335375], [19.60483109692729, -99.3091226676285]],
+                {"bubblingMouseEvents": true, "color": "#cc9ef9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#cc9ef9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_482deecbc7fd7d97e04d2ac81eaaa39c = L.marker(
+                [19.58339264764694, -99.18177855888194],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_3852bc9f659aeed317d4a9519fd3af29 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_482deecbc7fd7d97e04d2ac81eaaa39c.setIcon(div_icon_3852bc9f659aeed317d4a9519fd3af29);
+        
+    
+        var popup_a8918a023cbf22f69c88eb3b58d4542f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a683e9dfa8977c08222c0aafcf55611 = $(`<div id="html_2a683e9dfa8977c08222c0aafcf55611" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 45 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_a8918a023cbf22f69c88eb3b58d4542f.setContent(html_2a683e9dfa8977c08222c0aafcf55611);
+        
+
+        marker_482deecbc7fd7d97e04d2ac81eaaa39c.bindPopup(popup_a8918a023cbf22f69c88eb3b58d4542f)
+        ;
+
+        
+    
+    
+            var marker_b856a401590128f18f0012da7af8ecfc = L.marker(
+                [19.609536368541875, -99.17346933501247],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_324462916cffb8a1569d85c3b6251d20 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_b856a401590128f18f0012da7af8ecfc.setIcon(div_icon_324462916cffb8a1569d85c3b6251d20);
+        
+    
+        var popup_c101832dfc97b589eb2e9282824e6152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e6165ca22a97a09bee7f177dca4774e = $(`<div id="html_3e6165ca22a97a09bee7f177dca4774e" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 90 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_c101832dfc97b589eb2e9282824e6152.setContent(html_3e6165ca22a97a09bee7f177dca4774e);
+        
+
+        marker_b856a401590128f18f0012da7af8ecfc.bindPopup(popup_c101832dfc97b589eb2e9282824e6152)
+        ;
+
+        
+    
+    
+            var marker_0961a2fa20c64c6c93af801935f9103b = L.marker(
+                [19.63231897876883, -99.1655978231641],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_42e6577019035a8a71389e906d75f00d = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_0961a2fa20c64c6c93af801935f9103b.setIcon(div_icon_42e6577019035a8a71389e906d75f00d);
+        
+    
+        var popup_03acf314d9a51283fea9e986358b0d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7a758b766dad21e123b34b5ee63abe3 = $(`<div id="html_d7a758b766dad21e123b34b5ee63abe3" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 234 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_03acf314d9a51283fea9e986358b0d68.setContent(html_d7a758b766dad21e123b34b5ee63abe3);
+        
+
+        marker_0961a2fa20c64c6c93af801935f9103b.bindPopup(popup_03acf314d9a51283fea9e986358b0d68)
+        ;
+
+        
+    
+    
+            var marker_f5f464984a67f61e54924e48905bd2ea = L.marker(
+                [19.627600635832945, -99.16932545723206],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_a555014a3edcb5fa0e0bdabf3f0921fd = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_f5f464984a67f61e54924e48905bd2ea.setIcon(div_icon_a555014a3edcb5fa0e0bdabf3f0921fd);
+        
+    
+        var popup_c72ba4cd151d3a76db217f26f1afb1b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8c08e4a1713e7f3ff3352c69e7072a5 = $(`<div id="html_c8c08e4a1713e7f3ff3352c69e7072a5" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_c72ba4cd151d3a76db217f26f1afb1b5.setContent(html_c8c08e4a1713e7f3ff3352c69e7072a5);
+        
+
+        marker_f5f464984a67f61e54924e48905bd2ea.bindPopup(popup_c72ba4cd151d3a76db217f26f1afb1b5)
+        ;
+
+        
+    
+    
+            var marker_cdc2d7bf04230525bccbc634048d4ec1 = L.marker(
+                [19.661422186280234, -99.1622257755594],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_d766a6b68234896f5a60dbce034bc5dd = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_cdc2d7bf04230525bccbc634048d4ec1.setIcon(div_icon_d766a6b68234896f5a60dbce034bc5dd);
+        
+    
+        var popup_92622d9f32fa1728dd6a0cedf3041234 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6f3242db92aeb36fd75afffb3132e80 = $(`<div id="html_e6f3242db92aeb36fd75afffb3132e80" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 17 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_92622d9f32fa1728dd6a0cedf3041234.setContent(html_e6f3242db92aeb36fd75afffb3132e80);
+        
+
+        marker_cdc2d7bf04230525bccbc634048d4ec1.bindPopup(popup_92622d9f32fa1728dd6a0cedf3041234)
+        ;
+
+        
+    
+    
+            var marker_42d662172ae4e78a73aaafce5b3a00a2 = L.marker(
+                [19.643500123021422, -99.17923507973526],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_741ee9ae163d6c2926e27caa93bf3088 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_42d662172ae4e78a73aaafce5b3a00a2.setIcon(div_icon_741ee9ae163d6c2926e27caa93bf3088);
+        
+    
+        var popup_ff42dbf6f42ac9a0b5be6d7f9f460175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b7d3238ef0aca86f1c5fe5b88abce8 = $(`<div id="html_43b7d3238ef0aca86f1c5fe5b88abce8" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 24 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_ff42dbf6f42ac9a0b5be6d7f9f460175.setContent(html_43b7d3238ef0aca86f1c5fe5b88abce8);
+        
+
+        marker_42d662172ae4e78a73aaafce5b3a00a2.bindPopup(popup_ff42dbf6f42ac9a0b5be6d7f9f460175)
+        ;
+
+        
+    
+    
+            var marker_3758cfee06274bec292b85014549d890 = L.marker(
+                [19.62561521646959, -99.2104504916833],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_f8679e2486937764fdee83f7510729af = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_3758cfee06274bec292b85014549d890.setIcon(div_icon_f8679e2486937764fdee83f7510729af);
+        
+    
+        var popup_55ebda06c06f2e3243423e28b3dfbe7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8c32b1fdebc3d314ca0003f647c7a10 = $(`<div id="html_d8c32b1fdebc3d314ca0003f647c7a10" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 12 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_55ebda06c06f2e3243423e28b3dfbe7e.setContent(html_d8c32b1fdebc3d314ca0003f647c7a10);
+        
+
+        marker_3758cfee06274bec292b85014549d890.bindPopup(popup_55ebda06c06f2e3243423e28b3dfbe7e)
+        ;
+
+        
+    
+    
+            var marker_79be86939f72be13fc45096391e89c35 = L.marker(
+                [19.635194869949345, -99.21586162232612],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_3b38401eef39ed07201b3fa51c77358b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_79be86939f72be13fc45096391e89c35.setIcon(div_icon_3b38401eef39ed07201b3fa51c77358b);
+        
+    
+        var popup_206563465bfaea905027a599a0d33386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45fb82c2c9e83de33b8cded837707387 = $(`<div id="html_45fb82c2c9e83de33b8cded837707387" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 2 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_206563465bfaea905027a599a0d33386.setContent(html_45fb82c2c9e83de33b8cded837707387);
+        
+
+        marker_79be86939f72be13fc45096391e89c35.bindPopup(popup_206563465bfaea905027a599a0d33386)
+        ;
+
+        
+    
+    
+            var marker_3ed9f3eb6aa945bac993e3ab2413b09b = L.marker(
+                [19.617533272257983, -99.21461661462193],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_cdeb4b77f6e4cb034b4c82dea417f1b9 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_3ed9f3eb6aa945bac993e3ab2413b09b.setIcon(div_icon_cdeb4b77f6e4cb034b4c82dea417f1b9);
+        
+    
+        var popup_8d8cb93a648751291fabf9479222961b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60600576644aa8aed8c9c07aff585c40 = $(`<div id="html_60600576644aa8aed8c9c07aff585c40" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 75 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_8d8cb93a648751291fabf9479222961b.setContent(html_60600576644aa8aed8c9c07aff585c40);
+        
+
+        marker_3ed9f3eb6aa945bac993e3ab2413b09b.bindPopup(popup_8d8cb93a648751291fabf9479222961b)
+        ;
+
+        
+    
+    
+            var marker_ea46538c60e207b91df61dd9260f2998 = L.marker(
+                [19.617563764121442, -99.21462396060348],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_304d1306b06b93588f3242530e33ce2e = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            10\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_ea46538c60e207b91df61dd9260f2998.setIcon(div_icon_304d1306b06b93588f3242530e33ce2e);
+        
+    
+        var popup_aa2562c2a52adc150e9737f4809fe54e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92933a3545158b5d8aacc25a4e68fa57 = $(`<div id="html_92933a3545158b5d8aacc25a4e68fa57" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 10 </li>                             <li> Peso [kg]: 35 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_aa2562c2a52adc150e9737f4809fe54e.setContent(html_92933a3545158b5d8aacc25a4e68fa57);
+        
+
+        marker_ea46538c60e207b91df61dd9260f2998.bindPopup(popup_aa2562c2a52adc150e9737f4809fe54e)
+        ;
+
+        
+    
+    
+            var marker_8e33632db18bab7625d9350f022feaae = L.marker(
+                [19.594569695055668, -99.19541307949618],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_3d16021177c31fed592afbe1e1297a97 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            11\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_8e33632db18bab7625d9350f022feaae.setIcon(div_icon_3d16021177c31fed592afbe1e1297a97);
+        
+    
+        var popup_3b1d98a913044d2e1f90aafeb7d4b988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc6c18b6890a737e33008d519f4661df = $(`<div id="html_dc6c18b6890a737e33008d519f4661df" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 11 </li>                             <li> Peso [kg]: 46 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_3b1d98a913044d2e1f90aafeb7d4b988.setContent(html_dc6c18b6890a737e33008d519f4661df);
+        
+
+        marker_8e33632db18bab7625d9350f022feaae.bindPopup(popup_3b1d98a913044d2e1f90aafeb7d4b988)
+        ;
+
+        
+    
+    
+            var marker_5893cab9781b7193104c696bcfdff2e1 = L.marker(
+                [19.666206625442847, -99.21669484106464],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_c6d0f8c5a6b9577b20a04cf187ce8654 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            12\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_5893cab9781b7193104c696bcfdff2e1.setIcon(div_icon_c6d0f8c5a6b9577b20a04cf187ce8654);
+        
+    
+        var popup_799a24b055d040c9954ce192f638602f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b84365d91f0d63e60337a9d221e411 = $(`<div id="html_e5b84365d91f0d63e60337a9d221e411" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 12 </li>                             <li> Peso [kg]: 110 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_799a24b055d040c9954ce192f638602f.setContent(html_e5b84365d91f0d63e60337a9d221e411);
+        
+
+        marker_5893cab9781b7193104c696bcfdff2e1.bindPopup(popup_799a24b055d040c9954ce192f638602f)
+        ;
+
+        
+    
+    
+            var marker_4f92cc6be3d22ce415542b5f9b976e58 = L.marker(
+                [19.66505193854303, -99.21729017830187],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_91eaa7589721ecba0296a72e627b66b1 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            13\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_4f92cc6be3d22ce415542b5f9b976e58.setIcon(div_icon_91eaa7589721ecba0296a72e627b66b1);
+        
+    
+        var popup_1902c4ca0eb4afe29c40f912cda77eac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7030acaa959724cd7e49e93b6273a28c = $(`<div id="html_7030acaa959724cd7e49e93b6273a28c" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 13 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_1902c4ca0eb4afe29c40f912cda77eac.setContent(html_7030acaa959724cd7e49e93b6273a28c);
+        
+
+        marker_4f92cc6be3d22ce415542b5f9b976e58.bindPopup(popup_1902c4ca0eb4afe29c40f912cda77eac)
+        ;
+
+        
+    
+    
+            var marker_09704e904f7d8fac5b2bd753ad995e22 = L.marker(
+                [19.66525468768591, -99.21459744101011],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_6eadaff1f1f2f92664e7601a39efa9fe = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            14\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_09704e904f7d8fac5b2bd753ad995e22.setIcon(div_icon_6eadaff1f1f2f92664e7601a39efa9fe);
+        
+    
+        var popup_42512f3417e6a4dd43ff39046b0f0dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cfbdee9d406f00e36243befc533d03 = $(`<div id="html_76cfbdee9d406f00e36243befc533d03" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 14 </li>                             <li> Peso [kg]: 61 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_42512f3417e6a4dd43ff39046b0f0dd9.setContent(html_76cfbdee9d406f00e36243befc533d03);
+        
+
+        marker_09704e904f7d8fac5b2bd753ad995e22.bindPopup(popup_42512f3417e6a4dd43ff39046b0f0dd9)
+        ;
+
+        
+    
+    
+            var marker_eebab6b5ce97656bc376c8a3972bfecd = L.marker(
+                [19.677348156702752, -99.21612691063666],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_9fe64a619f7527d6c382e8c41dc58d2b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #ec9ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            15\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_eebab6b5ce97656bc376c8a3972bfecd.setIcon(div_icon_9fe64a619f7527d6c382e8c41dc58d2b);
+        
+    
+        var popup_b6097594bb73b0e8d781d36f20eb2ac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7719f8ecc7a28c21696647ed2b7cdc1 = $(`<div id="html_a7719f8ecc7a28c21696647ed2b7cdc1" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 2 </li>                             <li> Secuencia: 15 </li>                             <li> Peso [kg]: 240 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_b6097594bb73b0e8d781d36f20eb2ac0.setContent(html_a7719f8ecc7a28c21696647ed2b7cdc1);
+        
+
+        marker_eebab6b5ce97656bc376c8a3972bfecd.bindPopup(popup_b6097594bb73b0e8d781d36f20eb2ac0)
+        ;
+
+        
+    
+    
+            var poly_line_a7879a26b13a281b45889ea905c464ad = L.polyline(
+                [[19.58339264764694, -99.18177855888194], [19.609536368541875, -99.17346933501247], [19.63231897876883, -99.1655978231641], [19.627600635832945, -99.16932545723206], [19.661422186280234, -99.1622257755594], [19.643500123021422, -99.17923507973526], [19.62561521646959, -99.2104504916833], [19.635194869949345, -99.21586162232612], [19.617533272257983, -99.21461661462193], [19.617533272257983, -99.21461661462193], [19.594569695055668, -99.19541307949618], [19.666206625442847, -99.21669484106464], [19.66505193854303, -99.21729017830187], [19.66525468768591, -99.21459744101011], [19.677348156702752, -99.21612691063666]],
+                {"bubblingMouseEvents": true, "color": "#ec9ef9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ec9ef9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_84c939839076d896a7f50797f058f432 = L.marker(
+                [19.604869522590278, -99.23537135823513],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_c9a51ccdd25f72eb588f337ce04a6ba9 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_84c939839076d896a7f50797f058f432.setIcon(div_icon_c9a51ccdd25f72eb588f337ce04a6ba9);
+        
+    
+        var popup_d25578c52413b9727f7749f83dd79f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c04cc785477383cc99a0b24576d63468 = $(`<div id="html_c04cc785477383cc99a0b24576d63468" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 50 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d25578c52413b9727f7749f83dd79f88.setContent(html_c04cc785477383cc99a0b24576d63468);
+        
+
+        marker_84c939839076d896a7f50797f058f432.bindPopup(popup_d25578c52413b9727f7749f83dd79f88)
+        ;
+
+        
+    
+    
+            var marker_b91701a7103166c8137a771c26bab5ce = L.marker(
+                [19.60488532908137, -99.2356684090689],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_91fae471b682c4e324a8f7dc118a1c95 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_b91701a7103166c8137a771c26bab5ce.setIcon(div_icon_91fae471b682c4e324a8f7dc118a1c95);
+        
+    
+        var popup_b3263f35b7d6081412499380a2a11255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44d945a45c16c140ff44dc21b80d44b3 = $(`<div id="html_44d945a45c16c140ff44dc21b80d44b3" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 235 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_b3263f35b7d6081412499380a2a11255.setContent(html_44d945a45c16c140ff44dc21b80d44b3);
+        
+
+        marker_b91701a7103166c8137a771c26bab5ce.bindPopup(popup_b3263f35b7d6081412499380a2a11255)
+        ;
+
+        
+    
+    
+            var marker_d96a24062eafc24c9eeeb01cc2b47e3b = L.marker(
+                [19.602254419872743, -99.28457741867594],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_be6d3cca94b59e9ddf38382cbf1271bc = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_d96a24062eafc24c9eeeb01cc2b47e3b.setIcon(div_icon_be6d3cca94b59e9ddf38382cbf1271bc);
+        
+    
+        var popup_4c569c8a24ac5a70a43e68fe8967a88f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b181e16a298f963d754cb16825f5113 = $(`<div id="html_4b181e16a298f963d754cb16825f5113" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 19 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_4c569c8a24ac5a70a43e68fe8967a88f.setContent(html_4b181e16a298f963d754cb16825f5113);
+        
+
+        marker_d96a24062eafc24c9eeeb01cc2b47e3b.bindPopup(popup_4c569c8a24ac5a70a43e68fe8967a88f)
+        ;
+
+        
+    
+    
+            var marker_eb79259d55d4c1ef7ae495c2c6e93ce5 = L.marker(
+                [19.60744800243875, -99.30389488861088],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_169c2a0134eade21f4c97bccf59b77b4 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_eb79259d55d4c1ef7ae495c2c6e93ce5.setIcon(div_icon_169c2a0134eade21f4c97bccf59b77b4);
+        
+    
+        var popup_537e9a7264b4f297ab629ea90e71a0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f818a932a730e5cf724592c96ab2a9f = $(`<div id="html_1f818a932a730e5cf724592c96ab2a9f" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_537e9a7264b4f297ab629ea90e71a0b7.setContent(html_1f818a932a730e5cf724592c96ab2a9f);
+        
+
+        marker_eb79259d55d4c1ef7ae495c2c6e93ce5.bindPopup(popup_537e9a7264b4f297ab629ea90e71a0b7)
+        ;
+
+        
+    
+    
+            var marker_79d6595c2db3b0c45f1fef5015fdb89e = L.marker(
+                [19.61363201677812, -99.2955369849608],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_0de5be012bcb92b357f0bb2901d7ab71 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_79d6595c2db3b0c45f1fef5015fdb89e.setIcon(div_icon_0de5be012bcb92b357f0bb2901d7ab71);
+        
+    
+        var popup_0d4528cc2d63fef44171ed12aaa5dc30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c517584101b9005cdaa35e59bcc5b96 = $(`<div id="html_0c517584101b9005cdaa35e59bcc5b96" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 1 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_0d4528cc2d63fef44171ed12aaa5dc30.setContent(html_0c517584101b9005cdaa35e59bcc5b96);
+        
+
+        marker_79d6595c2db3b0c45f1fef5015fdb89e.bindPopup(popup_0d4528cc2d63fef44171ed12aaa5dc30)
+        ;
+
+        
+    
+    
+            var marker_cf0ded1bdad3d030de507dd1a3cb9d84 = L.marker(
+                [19.618385757581514, -99.30602730047843],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_610b3985980763cd60a43f91ff10a49f = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_cf0ded1bdad3d030de507dd1a3cb9d84.setIcon(div_icon_610b3985980763cd60a43f91ff10a49f);
+        
+    
+        var popup_d17bbcd0218e4e22c746a9c38a7dd15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aaaeb5b1998a0a75afbbf7784394c2d = $(`<div id="html_6aaaeb5b1998a0a75afbbf7784394c2d" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 31 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d17bbcd0218e4e22c746a9c38a7dd15a.setContent(html_6aaaeb5b1998a0a75afbbf7784394c2d);
+        
+
+        marker_cf0ded1bdad3d030de507dd1a3cb9d84.bindPopup(popup_d17bbcd0218e4e22c746a9c38a7dd15a)
+        ;
+
+        
+    
+    
+            var marker_707d72b25dadcdb1c37c0d0512876ebc = L.marker(
+                [19.63322924780489, -99.31520755437926],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_5c33f731f7a245eb9a02c6ffb5e3ee64 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_707d72b25dadcdb1c37c0d0512876ebc.setIcon(div_icon_5c33f731f7a245eb9a02c6ffb5e3ee64);
+        
+    
+        var popup_2fee38822db4480cbabda3ba37340dcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2de4ba774fc10b8eabfe85c58a6885 = $(`<div id="html_ba2de4ba774fc10b8eabfe85c58a6885" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 80 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_2fee38822db4480cbabda3ba37340dcb.setContent(html_ba2de4ba774fc10b8eabfe85c58a6885);
+        
+
+        marker_707d72b25dadcdb1c37c0d0512876ebc.bindPopup(popup_2fee38822db4480cbabda3ba37340dcb)
+        ;
+
+        
+    
+    
+            var marker_68a586db553317b356e43493fbf1bbaa = L.marker(
+                [19.609510408853083, -99.33517591035611],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_39dc1f32ebdb9508b069695919039f90 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_68a586db553317b356e43493fbf1bbaa.setIcon(div_icon_39dc1f32ebdb9508b069695919039f90);
+        
+    
+        var popup_28f0241dd12c4dd219f9ec5a10b6aeca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aea323e08485ecf7c98d9da4b1128691 = $(`<div id="html_aea323e08485ecf7c98d9da4b1128691" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_28f0241dd12c4dd219f9ec5a10b6aeca.setContent(html_aea323e08485ecf7c98d9da4b1128691);
+        
+
+        marker_68a586db553317b356e43493fbf1bbaa.bindPopup(popup_28f0241dd12c4dd219f9ec5a10b6aeca)
+        ;
+
+        
+    
+    
+            var marker_bd3d8e5b8272d50b1eeddb540704c44a = L.marker(
+                [19.609249438662566, -99.33485628974887],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_15664fa8a161339c7171b3289e42a88e = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e99ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_bd3d8e5b8272d50b1eeddb540704c44a.setIcon(div_icon_15664fa8a161339c7171b3289e42a88e);
+        
+    
+        var popup_134cd3e232f4b30caaf8fddc942e11b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24a8db0d19b0864e38d992c50a299d40 = $(`<div id="html_24a8db0d19b0864e38d992c50a299d40" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 3 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 560 </li>                             <li> Franja: 840,1140 </li>                         </ul>                     </div>`)[0];
+            popup_134cd3e232f4b30caaf8fddc942e11b2.setContent(html_24a8db0d19b0864e38d992c50a299d40);
+        
+
+        marker_bd3d8e5b8272d50b1eeddb540704c44a.bindPopup(popup_134cd3e232f4b30caaf8fddc942e11b2)
+        ;
+
+        
+    
+    
+            var poly_line_34ce20b30ceb98ae037f04a9a01e784d = L.polyline(
+                [[19.604869522590278, -99.23537135823513], [19.604869522590278, -99.23537135823513], [19.602254419872743, -99.28457741867594], [19.60744800243875, -99.30389488861088], [19.61363201677812, -99.2955369849608], [19.618385757581514, -99.30602730047843], [19.63322924780489, -99.31520755437926], [19.609510408853083, -99.33517591035611], [19.609510408853083, -99.33517591035611]],
+                {"bubblingMouseEvents": true, "color": "#e99ef9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e99ef9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_6859762c4d62f2f4e0cf462aa11c9587 = L.marker(
+                [19.687413668967498, -99.24459063698485],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_6dd2c3cace53bcbaf3eb89abdfeea166 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_6859762c4d62f2f4e0cf462aa11c9587.setIcon(div_icon_6dd2c3cace53bcbaf3eb89abdfeea166);
+        
+    
+        var popup_1bb737b779c05a0700e4bb4853280a64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae1387404865d8692d866c62440c0ca7 = $(`<div id="html_ae1387404865d8692d866c62440c0ca7" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 16 </li>                             <li> Franja: 900,1020 </li>                         </ul>                     </div>`)[0];
+            popup_1bb737b779c05a0700e4bb4853280a64.setContent(html_ae1387404865d8692d866c62440c0ca7);
+        
+
+        marker_6859762c4d62f2f4e0cf462aa11c9587.bindPopup(popup_1bb737b779c05a0700e4bb4853280a64)
+        ;
+
+        
+    
+    
+            var marker_4900d876b32b76390632090d82f42d3b = L.marker(
+                [19.691081359025983, -99.24011122779385],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_443a6389982c7273190f5904e3b4d9f0 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_4900d876b32b76390632090d82f42d3b.setIcon(div_icon_443a6389982c7273190f5904e3b4d9f0);
+        
+    
+        var popup_bf1e6180b691809af800875abe5027a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_671dc5bc627e1cc6ae849ead85f89dd8 = $(`<div id="html_671dc5bc627e1cc6ae849ead85f89dd8" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_bf1e6180b691809af800875abe5027a9.setContent(html_671dc5bc627e1cc6ae849ead85f89dd8);
+        
+
+        marker_4900d876b32b76390632090d82f42d3b.bindPopup(popup_bf1e6180b691809af800875abe5027a9)
+        ;
+
+        
+    
+    
+            var marker_63627fd2106e3930bd134f5a5bdaa078 = L.marker(
+                [19.691245089374238, -99.240251987621],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_dfb2fe74602f90d5538ed64d5a2a553d = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_63627fd2106e3930bd134f5a5bdaa078.setIcon(div_icon_dfb2fe74602f90d5538ed64d5a2a553d);
+        
+    
+        var popup_e7d5b87499d3898095557dd7ecc0d576 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18a7bcfe948e00e08de29b6f49d5119b = $(`<div id="html_18a7bcfe948e00e08de29b6f49d5119b" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 2 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_e7d5b87499d3898095557dd7ecc0d576.setContent(html_18a7bcfe948e00e08de29b6f49d5119b);
+        
+
+        marker_63627fd2106e3930bd134f5a5bdaa078.bindPopup(popup_e7d5b87499d3898095557dd7ecc0d576)
+        ;
+
+        
+    
+    
+            var marker_088b3419f123248b2d40b5ca8d2b3314 = L.marker(
+                [19.676917911724857, -99.25129436846522],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_96f6186a40655b19ba51110af963084b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_088b3419f123248b2d40b5ca8d2b3314.setIcon(div_icon_96f6186a40655b19ba51110af963084b);
+        
+    
+        var popup_1e4beffe8eb275f77afa4a817e5dd377 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_247f66c76fc62ca2f3634228ddc740b1 = $(`<div id="html_247f66c76fc62ca2f3634228ddc740b1" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_1e4beffe8eb275f77afa4a817e5dd377.setContent(html_247f66c76fc62ca2f3634228ddc740b1);
+        
+
+        marker_088b3419f123248b2d40b5ca8d2b3314.bindPopup(popup_1e4beffe8eb275f77afa4a817e5dd377)
+        ;
+
+        
+    
+    
+            var marker_6e7ecf12a7f604342adbf7326619e2db = L.marker(
+                [19.648010433911086, -99.29595197628592],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_0d313f57c77174ff7e68962f53e705fc = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_6e7ecf12a7f604342adbf7326619e2db.setIcon(div_icon_0d313f57c77174ff7e68962f53e705fc);
+        
+    
+        var popup_36379de6cbc95b9f6387d55ce062a900 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d61d99b77b0d2ecfec3e1b1490d86176 = $(`<div id="html_d61d99b77b0d2ecfec3e1b1490d86176" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 100 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_36379de6cbc95b9f6387d55ce062a900.setContent(html_d61d99b77b0d2ecfec3e1b1490d86176);
+        
+
+        marker_6e7ecf12a7f604342adbf7326619e2db.bindPopup(popup_36379de6cbc95b9f6387d55ce062a900)
+        ;
+
+        
+    
+    
+            var marker_c8eeb552e9cee238e1d20e1d3d62d2f3 = L.marker(
+                [19.645700184297006, -99.29714149285115],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_059976630f6fa75356124a9cae90b8ed = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_c8eeb552e9cee238e1d20e1d3d62d2f3.setIcon(div_icon_059976630f6fa75356124a9cae90b8ed);
+        
+    
+        var popup_d0d4e39172a0607f766f48c97fa4a1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8245449269b6961548cf87372003b887 = $(`<div id="html_8245449269b6961548cf87372003b887" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 63 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d0d4e39172a0607f766f48c97fa4a1d0.setContent(html_8245449269b6961548cf87372003b887);
+        
+
+        marker_c8eeb552e9cee238e1d20e1d3d62d2f3.bindPopup(popup_d0d4e39172a0607f766f48c97fa4a1d0)
+        ;
+
+        
+    
+    
+            var marker_a81d8dc1182442625974945b9157b13b = L.marker(
+                [19.64549605435181, -99.2998347403415],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_8a9a492be569f07bdd15837b3fc9dcd3 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_a81d8dc1182442625974945b9157b13b.setIcon(div_icon_8a9a492be569f07bdd15837b3fc9dcd3);
+        
+    
+        var popup_a7b5506acc833612ccd7334f4f58069f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73ea9e96ed5c897ff43c080f5ad0d92e = $(`<div id="html_73ea9e96ed5c897ff43c080f5ad0d92e" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 400 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_a7b5506acc833612ccd7334f4f58069f.setContent(html_73ea9e96ed5c897ff43c080f5ad0d92e);
+        
+
+        marker_a81d8dc1182442625974945b9157b13b.bindPopup(popup_a7b5506acc833612ccd7334f4f58069f)
+        ;
+
+        
+    
+    
+            var marker_c23effccdaece147ae6b85694800cd7a = L.marker(
+                [19.63201059852982, -99.28736847469213],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_773d08316c14b2a95bb80db68cbf8cb8 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_c23effccdaece147ae6b85694800cd7a.setIcon(div_icon_773d08316c14b2a95bb80db68cbf8cb8);
+        
+    
+        var popup_56e5bcfd51e65f0051b677c13bf29640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa310e765d968a982ec45e88883ac01 = $(`<div id="html_7fa310e765d968a982ec45e88883ac01" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 100 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_56e5bcfd51e65f0051b677c13bf29640.setContent(html_7fa310e765d968a982ec45e88883ac01);
+        
+
+        marker_c23effccdaece147ae6b85694800cd7a.bindPopup(popup_56e5bcfd51e65f0051b677c13bf29640)
+        ;
+
+        
+    
+    
+            var marker_a2fe7d4d9a3bdfe914346646b6126ebb = L.marker(
+                [19.628749545770813, -99.2864598997777],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_890d0fb20d4cf06c05a83ad76257b864 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9dc;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_a2fe7d4d9a3bdfe914346646b6126ebb.setIcon(div_icon_890d0fb20d4cf06c05a83ad76257b864);
+        
+    
+        var popup_ff01e5d3ceba84dfda69087664658336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ee20b1d74b1bff51fafc3080c25dc98 = $(`<div id="html_3ee20b1d74b1bff51fafc3080c25dc98" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 4 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 430 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_ff01e5d3ceba84dfda69087664658336.setContent(html_3ee20b1d74b1bff51fafc3080c25dc98);
+        
+
+        marker_a2fe7d4d9a3bdfe914346646b6126ebb.bindPopup(popup_ff01e5d3ceba84dfda69087664658336)
+        ;
+
+        
+    
+    
+            var poly_line_6cce423b05f2abd5e48af6cc65050268 = L.polyline(
+                [[19.687413668967498, -99.24459063698485], [19.691081359025983, -99.24011122779385], [19.691081359025983, -99.24011122779385], [19.676917911724857, -99.25129436846522], [19.648010433911086, -99.29595197628592], [19.645700184297006, -99.29714149285115], [19.64549605435181, -99.2998347403415], [19.63201059852982, -99.28736847469213], [19.628749545770813, -99.2864598997777]],
+                {"bubblingMouseEvents": true, "color": "#9ef9dc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9ef9dc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_06ffb8fcca4c851f9a50f19a24aa65c7 = L.marker(
+                [19.506656306490733, -99.09598946098467],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_a0f9b2a5ac2dd3deff4642060c613542 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_06ffb8fcca4c851f9a50f19a24aa65c7.setIcon(div_icon_a0f9b2a5ac2dd3deff4642060c613542);
+        
+    
+        var popup_619ad7227997875cc4f513a314327e12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aceaf4a84d8ee6952ad67ab8c04fab26 = $(`<div id="html_aceaf4a84d8ee6952ad67ab8c04fab26" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 1358 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_619ad7227997875cc4f513a314327e12.setContent(html_aceaf4a84d8ee6952ad67ab8c04fab26);
+        
+
+        marker_06ffb8fcca4c851f9a50f19a24aa65c7.bindPopup(popup_619ad7227997875cc4f513a314327e12)
+        ;
+
+        
+    
+    
+            var marker_b4ad59b46cdfde64a39a267e7f0eec90 = L.marker(
+                [19.487651037062893, -99.09804582061984],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_a3d1818346288cd25190f8d8580e4a23 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_b4ad59b46cdfde64a39a267e7f0eec90.setIcon(div_icon_a3d1818346288cd25190f8d8580e4a23);
+        
+    
+        var popup_6cd2bfe488f996876738b180653812ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08b64049e3e381b5206133965f6366ec = $(`<div id="html_08b64049e3e381b5206133965f6366ec" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 23 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_6cd2bfe488f996876738b180653812ef.setContent(html_08b64049e3e381b5206133965f6366ec);
+        
+
+        marker_b4ad59b46cdfde64a39a267e7f0eec90.bindPopup(popup_6cd2bfe488f996876738b180653812ef)
+        ;
+
+        
+    
+    
+            var marker_a5104b2c11d9c432fe1da5a069f92e01 = L.marker(
+                [19.474010252649617, -99.10250061916689],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_eb6e074c4b91a387f4c4fe688247f596 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_a5104b2c11d9c432fe1da5a069f92e01.setIcon(div_icon_eb6e074c4b91a387f4c4fe688247f596);
+        
+    
+        var popup_49802c4d400014a5f38d99e08c803c16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d4b72f08165c270be8b97100edf3e1 = $(`<div id="html_39d4b72f08165c270be8b97100edf3e1" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 2 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_49802c4d400014a5f38d99e08c803c16.setContent(html_39d4b72f08165c270be8b97100edf3e1);
+        
+
+        marker_a5104b2c11d9c432fe1da5a069f92e01.bindPopup(popup_49802c4d400014a5f38d99e08c803c16)
+        ;
+
+        
+    
+    
+            var marker_7f9f029fd0edb71428ec8bf92794a0df = L.marker(
+                [19.47868263215535, -99.08459058159006],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_1b30279e32a5dc98c188e35a59053b42 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_7f9f029fd0edb71428ec8bf92794a0df.setIcon(div_icon_1b30279e32a5dc98c188e35a59053b42);
+        
+    
+        var popup_85e4aaeac9b9b95c5f859905ef061d01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b80aab91bce2bc80f97d8ffcadd832 = $(`<div id="html_31b80aab91bce2bc80f97d8ffcadd832" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 7 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_85e4aaeac9b9b95c5f859905ef061d01.setContent(html_31b80aab91bce2bc80f97d8ffcadd832);
+        
+
+        marker_7f9f029fd0edb71428ec8bf92794a0df.bindPopup(popup_85e4aaeac9b9b95c5f859905ef061d01)
+        ;
+
+        
+    
+    
+            var marker_65f1930b6fa95c6d433a42bf582bd4cc = L.marker(
+                [19.51338694636583, -99.06538411652528],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_f897e3d6d14fcd1ab62c70900355fd4d = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_65f1930b6fa95c6d433a42bf582bd4cc.setIcon(div_icon_f897e3d6d14fcd1ab62c70900355fd4d);
+        
+    
+        var popup_f279ead7c6e9956f890bfd2ac320fa1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a001eb32e9f040274900afea4ee399c = $(`<div id="html_9a001eb32e9f040274900afea4ee399c" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 50 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_f279ead7c6e9956f890bfd2ac320fa1b.setContent(html_9a001eb32e9f040274900afea4ee399c);
+        
+
+        marker_65f1930b6fa95c6d433a42bf582bd4cc.bindPopup(popup_f279ead7c6e9956f890bfd2ac320fa1b)
+        ;
+
+        
+    
+    
+            var marker_3c3c7f0c4fc77cf9b25fb963d018cc22 = L.marker(
+                [19.510530573448083, -99.05910748102075],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_77ebc26cd0840ea144b33b85e7d321ce = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_3c3c7f0c4fc77cf9b25fb963d018cc22.setIcon(div_icon_77ebc26cd0840ea144b33b85e7d321ce);
+        
+    
+        var popup_21ac18a70431a4475552fa5c6bd5a67c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e368d5c17fc97f36fc8fce622228e2d = $(`<div id="html_9e368d5c17fc97f36fc8fce622228e2d" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 6 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_21ac18a70431a4475552fa5c6bd5a67c.setContent(html_9e368d5c17fc97f36fc8fce622228e2d);
+        
+
+        marker_3c3c7f0c4fc77cf9b25fb963d018cc22.bindPopup(popup_21ac18a70431a4475552fa5c6bd5a67c)
+        ;
+
+        
+    
+    
+            var marker_7c8692d8719b2edaf2b164d8ac5023ff = L.marker(
+                [19.503362514970277, -99.05118244072561],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_3896793ec0708d85caf721eb3034d6db = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_7c8692d8719b2edaf2b164d8ac5023ff.setIcon(div_icon_3896793ec0708d85caf721eb3034d6db);
+        
+    
+        var popup_b98f8846367987b98bfdf43c81c9527f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e85ba61a309a6a6f6b316f26b787f7 = $(`<div id="html_17e85ba61a309a6a6f6b316f26b787f7" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 286 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_b98f8846367987b98bfdf43c81c9527f.setContent(html_17e85ba61a309a6a6f6b316f26b787f7);
+        
+
+        marker_7c8692d8719b2edaf2b164d8ac5023ff.bindPopup(popup_b98f8846367987b98bfdf43c81c9527f)
+        ;
+
+        
+    
+    
+            var marker_d4a44b270ca97aa5db141d61f7c50f05 = L.marker(
+                [19.5443298543109, -99.02226675255312],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_8a056027f527e0e09a5c3a4767025714 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_d4a44b270ca97aa5db141d61f7c50f05.setIcon(div_icon_8a056027f527e0e09a5c3a4767025714);
+        
+    
+        var popup_8685db3aa2b06f12879c8ba31fa5ad4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7588d42c435fc0a15f2de27ca433647 = $(`<div id="html_b7588d42c435fc0a15f2de27ca433647" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_8685db3aa2b06f12879c8ba31fa5ad4a.setContent(html_b7588d42c435fc0a15f2de27ca433647);
+        
+
+        marker_d4a44b270ca97aa5db141d61f7c50f05.bindPopup(popup_8685db3aa2b06f12879c8ba31fa5ad4a)
+        ;
+
+        
+    
+    
+            var marker_0929c911f49c192257e1c5ec47421ee0 = L.marker(
+                [19.547087779475042, -99.0298871714605],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_d14229082db3fbdbc8964efe11251e7e = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_0929c911f49c192257e1c5ec47421ee0.setIcon(div_icon_d14229082db3fbdbc8964efe11251e7e);
+        
+    
+        var popup_bbc2bd73093129a477058cede1e7e370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2883556f6963b00afc10c502cc53d42 = $(`<div id="html_a2883556f6963b00afc10c502cc53d42" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 50 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_bbc2bd73093129a477058cede1e7e370.setContent(html_a2883556f6963b00afc10c502cc53d42);
+        
+
+        marker_0929c911f49c192257e1c5ec47421ee0.bindPopup(popup_bbc2bd73093129a477058cede1e7e370)
+        ;
+
+        
+    
+    
+            var marker_6e52f75dfa25d5dfd037d465134a37f8 = L.marker(
+                [19.562481162803294, -99.0167625706122],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_27da85138f14e6fd5c58c6c74c81890b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            10\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_6e52f75dfa25d5dfd037d465134a37f8.setIcon(div_icon_27da85138f14e6fd5c58c6c74c81890b);
+        
+    
+        var popup_8f594318abad446bd4c24da2d05dd836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b18baa72ef794e7d1093f0f05d66382a = $(`<div id="html_b18baa72ef794e7d1093f0f05d66382a" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 10 </li>                             <li> Peso [kg]: 6 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_8f594318abad446bd4c24da2d05dd836.setContent(html_b18baa72ef794e7d1093f0f05d66382a);
+        
+
+        marker_6e52f75dfa25d5dfd037d465134a37f8.bindPopup(popup_8f594318abad446bd4c24da2d05dd836)
+        ;
+
+        
+    
+    
+            var marker_4f4f52991f7e02a7d45cc36518f748d2 = L.marker(
+                [19.600243984368536, -99.03085238650962],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_7354503c89e573d1d937eef9b6455787 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            11\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_4f4f52991f7e02a7d45cc36518f748d2.setIcon(div_icon_7354503c89e573d1d937eef9b6455787);
+        
+    
+        var popup_5c43d7a4c9c92098d7092c195b681a92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50d93ecbd9ccb8abc887168d511d4ae2 = $(`<div id="html_50d93ecbd9ccb8abc887168d511d4ae2" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 11 </li>                             <li> Peso [kg]: 10 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_5c43d7a4c9c92098d7092c195b681a92.setContent(html_50d93ecbd9ccb8abc887168d511d4ae2);
+        
+
+        marker_4f4f52991f7e02a7d45cc36518f748d2.bindPopup(popup_5c43d7a4c9c92098d7092c195b681a92)
+        ;
+
+        
+    
+    
+            var marker_51d6d7b263e909335fe05af755bcb987 = L.marker(
+                [19.598537916364695, -99.02397711769214],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_1246955b232a95c5c5b95f9c12dd4405 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            12\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_51d6d7b263e909335fe05af755bcb987.setIcon(div_icon_1246955b232a95c5c5b95f9c12dd4405);
+        
+    
+        var popup_426a244287e0319d9918674cd2884d40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dba6ce726765641e95cbe9f8ec37fa85 = $(`<div id="html_dba6ce726765641e95cbe9f8ec37fa85" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 12 </li>                             <li> Peso [kg]: 2 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_426a244287e0319d9918674cd2884d40.setContent(html_dba6ce726765641e95cbe9f8ec37fa85);
+        
+
+        marker_51d6d7b263e909335fe05af755bcb987.bindPopup(popup_426a244287e0319d9918674cd2884d40)
+        ;
+
+        
+    
+    
+            var marker_e3f8d552f9db89edd3c074dffb7b1d25 = L.marker(
+                [19.619298400671394, -99.01324389605186],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_38285a6cadf20609298cb8d8ae9fe448 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            13\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_e3f8d552f9db89edd3c074dffb7b1d25.setIcon(div_icon_38285a6cadf20609298cb8d8ae9fe448);
+        
+    
+        var popup_d9108d04d4ad71851cdd033500c5e08f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04e2ffd6aa77a698a6045663fee7b099 = $(`<div id="html_04e2ffd6aa77a698a6045663fee7b099" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 13 </li>                             <li> Peso [kg]: 40 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d9108d04d4ad71851cdd033500c5e08f.setContent(html_04e2ffd6aa77a698a6045663fee7b099);
+        
+
+        marker_e3f8d552f9db89edd3c074dffb7b1d25.bindPopup(popup_d9108d04d4ad71851cdd033500c5e08f)
+        ;
+
+        
+    
+    
+            var marker_392b40efb1b5cff06f3e7d6386ae9185 = L.marker(
+                [19.61941931786957, -99.01342255817188],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_f4f58f45b3d1b526b3e8509c27126ae2 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            14\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_392b40efb1b5cff06f3e7d6386ae9185.setIcon(div_icon_f4f58f45b3d1b526b3e8509c27126ae2);
+        
+    
+        var popup_b259ba733e8eaa878f467819f8c70d32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ed2f8a535151ffcb3a8c9004fbb26a2 = $(`<div id="html_2ed2f8a535151ffcb3a8c9004fbb26a2" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 14 </li>                             <li> Peso [kg]: 4 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_b259ba733e8eaa878f467819f8c70d32.setContent(html_2ed2f8a535151ffcb3a8c9004fbb26a2);
+        
+
+        marker_392b40efb1b5cff06f3e7d6386ae9185.bindPopup(popup_b259ba733e8eaa878f467819f8c70d32)
+        ;
+
+        
+    
+    
+            var marker_27c2ff5cb8d4193f4d834ee1e011ba03 = L.marker(
+                [19.61924361813154, -99.01290642167328],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_058859a8bd14c6426d497f9085641ee4 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            15\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_27c2ff5cb8d4193f4d834ee1e011ba03.setIcon(div_icon_058859a8bd14c6426d497f9085641ee4);
+        
+    
+        var popup_3913244d3cee5074d62e96cf92fddca7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2bc6a85b54a5544e71cf3eaf6cc38ec = $(`<div id="html_a2bc6a85b54a5544e71cf3eaf6cc38ec" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 15 </li>                             <li> Peso [kg]: 36 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_3913244d3cee5074d62e96cf92fddca7.setContent(html_a2bc6a85b54a5544e71cf3eaf6cc38ec);
+        
+
+        marker_27c2ff5cb8d4193f4d834ee1e011ba03.bindPopup(popup_3913244d3cee5074d62e96cf92fddca7)
+        ;
+
+        
+    
+    
+            var marker_6b49a0285b4ae6e16e551d651927d45d = L.marker(
+                [19.607102168404573, -98.98334912889509],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_e90954b430639161d2fe0169d4ef7801 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9eb0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            16\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_6b49a0285b4ae6e16e551d651927d45d.setIcon(div_icon_e90954b430639161d2fe0169d4ef7801);
+        
+    
+        var popup_34f809cad2b45bfcdd5869c5db0ac467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aba92163b952109edcee2654fa008b42 = $(`<div id="html_aba92163b952109edcee2654fa008b42" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 5 </li>                             <li> Secuencia: 16 </li>                             <li> Peso [kg]: 150 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_34f809cad2b45bfcdd5869c5db0ac467.setContent(html_aba92163b952109edcee2654fa008b42);
+        
+
+        marker_6b49a0285b4ae6e16e551d651927d45d.bindPopup(popup_34f809cad2b45bfcdd5869c5db0ac467)
+        ;
+
+        
+    
+    
+            var poly_line_48ab0f1d000f9c77dee11cb3da31aed1 = L.polyline(
+                [[19.506656306490733, -99.09598946098467], [19.487651037062893, -99.09804582061984], [19.474010252649617, -99.10250061916689], [19.47868263215535, -99.08459058159006], [19.51338694636583, -99.06538411652528], [19.510530573448083, -99.05910748102075], [19.503362514970277, -99.05118244072561], [19.5443298543109, -99.02226675255312], [19.547087779475042, -99.0298871714605], [19.562481162803294, -99.0167625706122], [19.600243984368536, -99.03085238650962], [19.598537916364695, -99.02397711769214], [19.619298400671394, -99.01324389605186], [19.619298400671394, -99.01324389605186], [19.619298400671394, -99.01324389605186], [19.607102168404573, -98.98334912889509]],
+                {"bubblingMouseEvents": true, "color": "#9eb0f9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9eb0f9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_fb24ea929b54a37bc4ff1eb80bdd3170 = L.marker(
+                [19.592454956527998, -98.9715352299442],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_39c386d32e6e94a37aaaca5b2fb39cea = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #e19ef9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_fb24ea929b54a37bc4ff1eb80bdd3170.setIcon(div_icon_39c386d32e6e94a37aaaca5b2fb39cea);
+        
+    
+        var popup_7898f5769cae33c31c47df08cc28054a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17283607b4b3e8c231961f196b8e3549 = $(`<div id="html_17283607b4b3e8c231961f196b8e3549" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 6 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 2000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_7898f5769cae33c31c47df08cc28054a.setContent(html_17283607b4b3e8c231961f196b8e3549);
+        
+
+        marker_fb24ea929b54a37bc4ff1eb80bdd3170.bindPopup(popup_7898f5769cae33c31c47df08cc28054a)
+        ;
+
+        
+    
+    
+            var poly_line_72b2f3935cf509f2776afbac83d14e9d = L.polyline(
+                [[19.592454956527998, -98.9715352299442]],
+                {"bubblingMouseEvents": true, "color": "#e19ef9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e19ef9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_64198b7d345d30bf90c7799b53cf2be8 = L.marker(
+                [19.594035671909435, -99.27587424102904],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_47850cb54e6e449768eb7328cd5cb028 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_64198b7d345d30bf90c7799b53cf2be8.setIcon(div_icon_47850cb54e6e449768eb7328cd5cb028);
+        
+    
+        var popup_df23aaecc896dfe80eec357f250626a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bb46b24b23e0f4bc3a9df74f903b8ae = $(`<div id="html_8bb46b24b23e0f4bc3a9df74f903b8ae" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 1033 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_df23aaecc896dfe80eec357f250626a4.setContent(html_8bb46b24b23e0f4bc3a9df74f903b8ae);
+        
+
+        marker_64198b7d345d30bf90c7799b53cf2be8.bindPopup(popup_df23aaecc896dfe80eec357f250626a4)
+        ;
+
+        
+    
+    
+            var marker_b5f0b51dbb1c3b2e88c52a2f2ba355cb = L.marker(
+                [19.605143098318628, -99.26110000150534],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_68dbb43504766657deeab6999e33825b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_b5f0b51dbb1c3b2e88c52a2f2ba355cb.setIcon(div_icon_68dbb43504766657deeab6999e33825b);
+        
+    
+        var popup_b4da2da2914a77b4acde45955b95b959 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e884aa711e83dd790149673eab6ff67 = $(`<div id="html_7e884aa711e83dd790149673eab6ff67" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 21 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_b4da2da2914a77b4acde45955b95b959.setContent(html_7e884aa711e83dd790149673eab6ff67);
+        
+
+        marker_b5f0b51dbb1c3b2e88c52a2f2ba355cb.bindPopup(popup_b4da2da2914a77b4acde45955b95b959)
+        ;
+
+        
+    
+    
+            var marker_b42beae65077f9419059345be11ef9ca = L.marker(
+                [19.597568948146556, -99.25853370115306],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_81200bb3b3204b7340d99538824b03eb = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_b42beae65077f9419059345be11ef9ca.setIcon(div_icon_81200bb3b3204b7340d99538824b03eb);
+        
+    
+        var popup_329ba4d09804ce456db5b47f4716bd29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f16922afb316c7c97f97bf4dc484de86 = $(`<div id="html_f16922afb316c7c97f97bf4dc484de86" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 38 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_329ba4d09804ce456db5b47f4716bd29.setContent(html_f16922afb316c7c97f97bf4dc484de86);
+        
+
+        marker_b42beae65077f9419059345be11ef9ca.bindPopup(popup_329ba4d09804ce456db5b47f4716bd29)
+        ;
+
+        
+    
+    
+            var marker_75853180a145b01c1975ae2c1a6440ae = L.marker(
+                [19.594070347873814, -99.24610858817361],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_29a91347b055f03834af5c2af376c815 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_75853180a145b01c1975ae2c1a6440ae.setIcon(div_icon_29a91347b055f03834af5c2af376c815);
+        
+    
+        var popup_d00238d40bc863a00b559a89d66d48e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cea9288762640a22fea183e8f1eb15d = $(`<div id="html_8cea9288762640a22fea183e8f1eb15d" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 55 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_d00238d40bc863a00b559a89d66d48e9.setContent(html_8cea9288762640a22fea183e8f1eb15d);
+        
+
+        marker_75853180a145b01c1975ae2c1a6440ae.bindPopup(popup_d00238d40bc863a00b559a89d66d48e9)
+        ;
+
+        
+    
+    
+            var marker_e021ebfb8d0a0ea783505ad81eb51e8c = L.marker(
+                [19.605922491565032, -99.23612226883796],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_fb7cc924c529f8b4bdfcc220a527f10c = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_e021ebfb8d0a0ea783505ad81eb51e8c.setIcon(div_icon_fb7cc924c529f8b4bdfcc220a527f10c);
+        
+    
+        var popup_747311a99106bbe30cb60e4158eee36f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0487806ff5725e9b94472b2f2529db73 = $(`<div id="html_0487806ff5725e9b94472b2f2529db73" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 5 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_747311a99106bbe30cb60e4158eee36f.setContent(html_0487806ff5725e9b94472b2f2529db73);
+        
+
+        marker_e021ebfb8d0a0ea783505ad81eb51e8c.bindPopup(popup_747311a99106bbe30cb60e4158eee36f)
+        ;
+
+        
+    
+    
+            var marker_542513cfa464f1d31c969fd3ec356a25 = L.marker(
+                [19.772108340087975, -99.22552231223364],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_cab83c7f9d6b88a27dd70edcfe22fd04 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_542513cfa464f1d31c969fd3ec356a25.setIcon(div_icon_cab83c7f9d6b88a27dd70edcfe22fd04);
+        
+    
+        var popup_0c46f4dad976e3765eacef604e4266c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddfc7d4e72ac1ac26f5ed19c1d821c7f = $(`<div id="html_ddfc7d4e72ac1ac26f5ed19c1d821c7f" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_0c46f4dad976e3765eacef604e4266c0.setContent(html_ddfc7d4e72ac1ac26f5ed19c1d821c7f);
+        
+
+        marker_542513cfa464f1d31c969fd3ec356a25.bindPopup(popup_0c46f4dad976e3765eacef604e4266c0)
+        ;
+
+        
+    
+    
+            var marker_8d73fc17ccc60db0afcdcfbe427cc4b9 = L.marker(
+                [19.711158687743865, -99.13525786954996],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_b7e0294a8a8f0376c4be5c541b8b0a14 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_8d73fc17ccc60db0afcdcfbe427cc4b9.setIcon(div_icon_b7e0294a8a8f0376c4be5c541b8b0a14);
+        
+    
+        var popup_9c39020d376977ccdfc4581df82e849b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_513b2e4aa3d084bcf66cfa2a01855ac2 = $(`<div id="html_513b2e4aa3d084bcf66cfa2a01855ac2" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 5 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_9c39020d376977ccdfc4581df82e849b.setContent(html_513b2e4aa3d084bcf66cfa2a01855ac2);
+        
+
+        marker_8d73fc17ccc60db0afcdcfbe427cc4b9.bindPopup(popup_9c39020d376977ccdfc4581df82e849b)
+        ;
+
+        
+    
+    
+            var marker_7905a26bb675323ef5b6be69d4f5fbfb = L.marker(
+                [19.696809954281136, -99.11936983872016],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_c59142cb66972fc5123cc36a02881699 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_7905a26bb675323ef5b6be69d4f5fbfb.setIcon(div_icon_c59142cb66972fc5123cc36a02881699);
+        
+    
+        var popup_17eac07d22131a5a684be35e09528f13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a3fe0563558d83723dd05f32d5c231e = $(`<div id="html_6a3fe0563558d83723dd05f32d5c231e" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 26 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_17eac07d22131a5a684be35e09528f13.setContent(html_6a3fe0563558d83723dd05f32d5c231e);
+        
+
+        marker_7905a26bb675323ef5b6be69d4f5fbfb.bindPopup(popup_17eac07d22131a5a684be35e09528f13)
+        ;
+
+        
+    
+    
+            var marker_e03340a4841d3466c2b3795e184907b1 = L.marker(
+                [19.68271109422391, -99.1150040355325],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_5bad04506d26ff4926175494871dc428 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef9db;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_e03340a4841d3466c2b3795e184907b1.setIcon(div_icon_5bad04506d26ff4926175494871dc428);
+        
+    
+        var popup_e7d30b30b43ad8446d78b5443466b9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02aa972210e2833e6d408407e9a13f95 = $(`<div id="html_02aa972210e2833e6d408407e9a13f95" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 7 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 10 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_e7d30b30b43ad8446d78b5443466b9e7.setContent(html_02aa972210e2833e6d408407e9a13f95);
+        
+
+        marker_e03340a4841d3466c2b3795e184907b1.bindPopup(popup_e7d30b30b43ad8446d78b5443466b9e7)
+        ;
+
+        
+    
+    
+            var poly_line_9122b30d56dd2c4d0d2be4f4253cb8fd = L.polyline(
+                [[19.594035671909435, -99.27587424102904], [19.605143098318628, -99.26110000150534], [19.597568948146556, -99.25853370115306], [19.594070347873814, -99.24610858817361], [19.605922491565032, -99.23612226883796], [19.772108340087975, -99.22552231223364], [19.711158687743865, -99.13525786954996], [19.696809954281136, -99.11936983872016], [19.68271109422391, -99.1150040355325]],
+                {"bubblingMouseEvents": true, "color": "#9ef9db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9ef9db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var marker_1fbd22339b611ed53143ebe48328c5e2 = L.marker(
+                [19.67915089077171, -99.0883750716646],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_b6b014941a4b9632db3da8950cd1bd09 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            1\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_1fbd22339b611ed53143ebe48328c5e2.setIcon(div_icon_b6b014941a4b9632db3da8950cd1bd09);
+        
+    
+        var popup_5013a0544c08435697bfff11ea206015 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e23e57277ae0ec97c28e0c438e4f9055 = $(`<div id="html_e23e57277ae0ec97c28e0c438e4f9055" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 1 </li>                             <li> Peso [kg]: 121 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_5013a0544c08435697bfff11ea206015.setContent(html_e23e57277ae0ec97c28e0c438e4f9055);
+        
+
+        marker_1fbd22339b611ed53143ebe48328c5e2.bindPopup(popup_5013a0544c08435697bfff11ea206015)
+        ;
+
+        
+    
+    
+            var marker_78b37088aee71a53a7fd465ec5deee0e = L.marker(
+                [19.68451922343274, -99.0907774102932],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_29a779fa97cd0a4d2c64ef384e3c2a90 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            2\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_78b37088aee71a53a7fd465ec5deee0e.setIcon(div_icon_29a779fa97cd0a4d2c64ef384e3c2a90);
+        
+    
+        var popup_8ab7f15a980e81e4da3a4e1a63b8a397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21571330d2214288e6099ccd887bec13 = $(`<div id="html_21571330d2214288e6099ccd887bec13" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 2 </li>                             <li> Peso [kg]: 45 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_8ab7f15a980e81e4da3a4e1a63b8a397.setContent(html_21571330d2214288e6099ccd887bec13);
+        
+
+        marker_78b37088aee71a53a7fd465ec5deee0e.bindPopup(popup_8ab7f15a980e81e4da3a4e1a63b8a397)
+        ;
+
+        
+    
+    
+            var marker_52cd74f31a15177f11433b01c7d54773 = L.marker(
+                [19.706644701231966, -99.07675592447688],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_410c414e170ed75d08ef51adf29a4c61 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            3\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_52cd74f31a15177f11433b01c7d54773.setIcon(div_icon_410c414e170ed75d08ef51adf29a4c61);
+        
+    
+        var popup_c687c2e9bc6be1d008b57245999777d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8c8968da42b11575107d112127803f7 = $(`<div id="html_c8c8968da42b11575107d112127803f7" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 3 </li>                             <li> Peso [kg]: 58 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_c687c2e9bc6be1d008b57245999777d6.setContent(html_c8c8968da42b11575107d112127803f7);
+        
+
+        marker_52cd74f31a15177f11433b01c7d54773.bindPopup(popup_c687c2e9bc6be1d008b57245999777d6)
+        ;
+
+        
+    
+    
+            var marker_1816cd02d4cfe9b8774b1f14ff8b5597 = L.marker(
+                [19.702830369843944, -99.06837377067482],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_8206ebea93b0b4f448bc6cb191b706a1 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            4\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_1816cd02d4cfe9b8774b1f14ff8b5597.setIcon(div_icon_8206ebea93b0b4f448bc6cb191b706a1);
+        
+    
+        var popup_4a2debf0c096debf6781ccae524c269b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fba9b0c38380ad4512ad3a22791a12a = $(`<div id="html_1fba9b0c38380ad4512ad3a22791a12a" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 4 </li>                             <li> Peso [kg]: 72 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_4a2debf0c096debf6781ccae524c269b.setContent(html_1fba9b0c38380ad4512ad3a22791a12a);
+        
+
+        marker_1816cd02d4cfe9b8774b1f14ff8b5597.bindPopup(popup_4a2debf0c096debf6781ccae524c269b)
+        ;
+
+        
+    
+    
+            var marker_f7d0efef35fe9d15d697025120ed529d = L.marker(
+                [19.687325012901056, -99.05309581526602],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_d539d6ae84ae9ba8c8523b81c6898d4d = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            5\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_f7d0efef35fe9d15d697025120ed529d.setIcon(div_icon_d539d6ae84ae9ba8c8523b81c6898d4d);
+        
+    
+        var popup_47ec55d9b6598cebfccd0811d4426171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f39be20c1656d729ad0129f7059cd6ee = $(`<div id="html_f39be20c1656d729ad0129f7059cd6ee" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 5 </li>                             <li> Peso [kg]: 1000 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_47ec55d9b6598cebfccd0811d4426171.setContent(html_f39be20c1656d729ad0129f7059cd6ee);
+        
+
+        marker_f7d0efef35fe9d15d697025120ed529d.bindPopup(popup_47ec55d9b6598cebfccd0811d4426171)
+        ;
+
+        
+    
+    
+            var marker_96984f61c76906995127177d57b22cea = L.marker(
+                [19.65837705188994, -99.03959837546466],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_2408606ea46fc0ae868c2c12ec6a798b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            6\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_96984f61c76906995127177d57b22cea.setIcon(div_icon_2408606ea46fc0ae868c2c12ec6a798b);
+        
+    
+        var popup_10977cb05efc89d5dfbaf277ab6d1388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a8aaf18c9d1bd18d75000c86d639a3a = $(`<div id="html_8a8aaf18c9d1bd18d75000c86d639a3a" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 6 </li>                             <li> Peso [kg]: 41 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_10977cb05efc89d5dfbaf277ab6d1388.setContent(html_8a8aaf18c9d1bd18d75000c86d639a3a);
+        
+
+        marker_96984f61c76906995127177d57b22cea.bindPopup(popup_10977cb05efc89d5dfbaf277ab6d1388)
+        ;
+
+        
+    
+    
+            var marker_025c7164e065ad9e006d821744ad602d = L.marker(
+                [19.649994743093252, -99.01806249213192],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_4dcfa15a0f5b0d594996fc4808977c30 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            7\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_025c7164e065ad9e006d821744ad602d.setIcon(div_icon_4dcfa15a0f5b0d594996fc4808977c30);
+        
+    
+        var popup_0dc2f8afb4d3489e509341a1f8941ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e3eb6fdc5602862a7b3db640cb87baa = $(`<div id="html_8e3eb6fdc5602862a7b3db640cb87baa" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 7 </li>                             <li> Peso [kg]: 82 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_0dc2f8afb4d3489e509341a1f8941ca6.setContent(html_8e3eb6fdc5602862a7b3db640cb87baa);
+        
+
+        marker_025c7164e065ad9e006d821744ad602d.bindPopup(popup_0dc2f8afb4d3489e509341a1f8941ca6)
+        ;
+
+        
+    
+    
+            var marker_be5952573d0a7671a6990a6fa64a6eee = L.marker(
+                [19.65801311378073, -98.99968731729012],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_61afa3fb2cef121c0274771f125057b0 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            8\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_be5952573d0a7671a6990a6fa64a6eee.setIcon(div_icon_61afa3fb2cef121c0274771f125057b0);
+        
+    
+        var popup_acc8f64b5d44510314447e80d8084c45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b46f0ed5444ed4951e8d91b07194cc1 = $(`<div id="html_3b46f0ed5444ed4951e8d91b07194cc1" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 8 </li>                             <li> Peso [kg]: 6 </li>                             <li> Franja: 1020,1140 </li>                         </ul>                     </div>`)[0];
+            popup_acc8f64b5d44510314447e80d8084c45.setContent(html_3b46f0ed5444ed4951e8d91b07194cc1);
+        
+
+        marker_be5952573d0a7671a6990a6fa64a6eee.bindPopup(popup_acc8f64b5d44510314447e80d8084c45)
+        ;
+
+        
+    
+    
+            var marker_8a99683fd2f65100f96042175afc54b8 = L.marker(
+                [19.642209325801527, -98.98846255522068],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_1d84cee9e1de3e2e569146cf038b62ea = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            9\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_8a99683fd2f65100f96042175afc54b8.setIcon(div_icon_1d84cee9e1de3e2e569146cf038b62ea);
+        
+    
+        var popup_a1181289be6fa9184982a132917ecafc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f677007582c59c3459084ec124a0dbfe = $(`<div id="html_f677007582c59c3459084ec124a0dbfe" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 9 </li>                             <li> Peso [kg]: 64 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_a1181289be6fa9184982a132917ecafc.setContent(html_f677007582c59c3459084ec124a0dbfe);
+        
+
+        marker_8a99683fd2f65100f96042175afc54b8.bindPopup(popup_a1181289be6fa9184982a132917ecafc)
+        ;
+
+        
+    
+    
+            var marker_37109750ad7f77b5f4fc211671d01413 = L.marker(
+                [19.58699899787483, -99.0002097941976],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_8015d4118b9f001cf08afc63b0056f85 = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            10\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_37109750ad7f77b5f4fc211671d01413.setIcon(div_icon_8015d4118b9f001cf08afc63b0056f85);
+        
+    
+        var popup_21f3856d7f08799bf78c32c6aa592bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07d7e93ed322dfbcadfb41ecbaa3f855 = $(`<div id="html_07d7e93ed322dfbcadfb41ecbaa3f855" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 10 </li>                             <li> Peso [kg]: 154 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_21f3856d7f08799bf78c32c6aa592bcf.setContent(html_07d7e93ed322dfbcadfb41ecbaa3f855);
+        
+
+        marker_37109750ad7f77b5f4fc211671d01413.bindPopup(popup_21f3856d7f08799bf78c32c6aa592bcf)
+        ;
+
+        
+    
+    
+            var marker_df783a802d87b72b0d7f4e12961ffb8f = L.marker(
+                [19.587074091445807, -98.9999415429142],
+                {}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+    
+            var div_icon_fa6394e183bd8dd89c8748b35168c21b = L.divIcon({"className": "empty", "html": "\n                        \u003cdiv  style =  \"background-color: #9ef0f9;\n                            border-radius: 6px; \n                            opacity: 1;\n                            border: 1px solid grey;\n                            text-align: center;\n                            color: black;\"\u003e\n                            11\n                        \u003c/div\u003e\n                    ", "iconAnchor": [9, 9], "iconSize": [18, 18]});
+            marker_df783a802d87b72b0d7f4e12961ffb8f.setIcon(div_icon_fa6394e183bd8dd89c8748b35168c21b);
+        
+    
+        var popup_e10ed9b36b4a30b96a9cf4e80dd6df4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b7b50e9d09e78db2c85dd742989dbb4 = $(`<div id="html_2b7b50e9d09e78db2c85dd742989dbb4" style="width: 100.0%; height: 100.0%;">                         <ul style = "padding-left:0;">                             <li> Ruta: 8 </li>                             <li> Secuencia: 11 </li>                             <li> Peso [kg]: 109 </li>                             <li> Franja: 540,1140 </li>                         </ul>                     </div>`)[0];
+            popup_e10ed9b36b4a30b96a9cf4e80dd6df4c.setContent(html_2b7b50e9d09e78db2c85dd742989dbb4);
+        
+
+        marker_df783a802d87b72b0d7f4e12961ffb8f.bindPopup(popup_e10ed9b36b4a30b96a9cf4e80dd6df4c)
+        ;
+
+        
+    
+    
+            var poly_line_f59bc83f8a2e08f0f4658d9a3ba5ea6c = L.polyline(
+                [[19.67915089077171, -99.0883750716646], [19.68451922343274, -99.0907774102932], [19.706644701231966, -99.07675592447688], [19.702830369843944, -99.06837377067482], [19.687325012901056, -99.05309581526602], [19.65837705188994, -99.03959837546466], [19.649994743093252, -99.01806249213192], [19.65801311378073, -98.99968731729012], [19.642209325801527, -98.98846255522068], [19.58699899787483, -99.0002097941976], [19.58699899787483, -99.0002097941976]],
+                {"bubblingMouseEvents": true, "color": "#9ef0f9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9ef0f9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_d2296f50937df0b570553c99e4e59f57);
+        
+</script>

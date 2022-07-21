@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "uuid": 0,
+            "h3r10": 0,
+            "lat": 40.0,
+            "lng": 50.0,
+            "total_weight": 0.0,
+            "start": 0.0,
+            "end": 960.0,
+            "service_time": 0.0
+        },
+        {
+            "uuid": 1,
+            "h3r10": 1,
+            "lat": 25.0,
+            "lng": 85.0,
+            "total_weight": 20.0,
+            "start": 0.0,
+            "end": 911.0,
+            "service_time": 10.0
+        },
+        {
+            "uuid": 2,
+            "h3r10": 2,
+            "lat": 22.0,
+            "lng": 75.0,
+            "total_weight": 30.0,
+            "start": 0.0,
+            "end": 919.0,
+            "service_time": 10.0
+        }
+    ],
+    "warehouse": {
+        "name": "test"
+    },
+    "name": "RC203 ",
+    "dimension": 3,
+    "fleet": [
+        {
+            "name": "Test",
+            "weight": 1000,
+            "cost": 1000,
+            "quantity": 50
+        }
+    ]
+}
